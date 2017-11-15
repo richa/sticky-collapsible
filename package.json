@@ -1,0 +1,56 @@
+{
+  "name": "sticky-collapsible",
+  "version": "1.0.0",
+  "description": "An npm package which allows to use sticky and collapsible as the same time with an option to use scrollable data inside the collapsible body",
+  "main": "StickyCollapsible.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richa/sticky-collapsible.git"
+  },
+  "keywords": [
+    "react",
+    "sticky",
+    "collapsible",
+    "sticky-collapsible",
+    "sticky-accordian"
+  ],
+  "author": "Richa Bhardwaj <bhardwaj.richa17@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/richa/sticky-collapsible/issues"
+  },
+  "homepage": "https://github.com/richa/sticky-collapsible#readme",
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-collapsible": "^2.0.3",
+    "react-sticky-el": "^1.0.13"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "mocha": "^4.0.1",
+    "path": "^0.12.7",
+    "postcss-loader": "^2.0.8",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
